@@ -1,0 +1,20 @@
+@font-face {
+    src: url(fonts/AquireLight-YzE0o.otf);
+    font-family: AquireLight;
+}
+
+.ok{
+    background-image: url("img/account1.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.block{
+    width: 45%; 
+    text-align: left;
+    background-color: rgba(48, 147, 187, 0.445);
+    
+    
+    margin-left: 30%;
+}

@@ -1,0 +1,81 @@
+@font-face {
+    src: url(fonts/AquireLight-YzE0o.otf);
+    font-family: AquireLight;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/produit.gif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.block {
+    width: 25%;
+    height: 400px;
+    margin: 0 auto;
+    display: table;
+    border: solid black;
+    background-color: rgba(35, 55, 85, 0.33);
+    display: inline-block;
+    text-align: left;
+}
+
+.lol {
+    width: 70%;
+    height: 300px;
+    border: solid black;
+    background-color: rgba(35, 55, 85, 0.33);
+    display: flex;
+    justify-content: space-between;
+    font-family: AquireLight;
+    padding: 10px;
+}
+
+.ok {
+
+    color: black;
+}
+
+table{
+    border-collapse: collapse
+  }
+  
+  td{
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+.bouton input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background: rgb(219, 76, 219);
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+    font-family: AquireLight;
+}
+
+.bouton input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgba(22, 47, 160, 0.336);
+    color: white;
+    font-family: AquireLight;
+}
+
+.bouton a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkblue;
+}
+
+.Description {
+    width: 70%;
+}

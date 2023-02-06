@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/panier.gif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.lol{
+    width: 35%;
+    height: 400px;
+    border: solid black;
+    background-color: rgba(255, 255, 255, 0.39);
+    display: flex;
+    justify-content: space-between;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+  }
+
